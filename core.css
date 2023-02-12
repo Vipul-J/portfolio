@@ -1,0 +1,130 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #e1e1e1;
+    background-color: #001128;
+  }  
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    
+  .blue-txt{
+      color: #04c4ff;
+  }
+
+  .card{
+    background-color: #001128;
+    border: 1px solid #a5a5a5;
+  }
+  .navbar-toggler .navbar-toggler-icon{
+color: #ffffff;
+  }
+
+  .achv{
+    background-color: #001128;
+    border: 1px solid #a5a5a5;
+  }
+  
+  .navi{
+    border-bottom: 1px solid #a5a5a5;
+  }
+
+
+  .typewriter {
+    width: 12.5ch;
+    font-size:3.4em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #212121;
+    animation: cursor 1s step-start infinite, 
+      text 4s steps(16) alternate infinite;
+  }
+  
+  @keyframes cursor {
+    0%, 100% { 
+      border-color: #212121; 
+    }
+  }
+  
+  @keyframes text {
+    0% { 
+      width: 0; 
+    }
+    100% { 
+      width: 12.5ch; 
+    }
+  }
+  
+  .blue-bg{
+    background-color: #001128;
+  }
+  
+  .darkblue-txt{
+      color: #ffffff;
+  }
+  
+  .para-large-txt{
+    font-size:1.1em ;
+  }
+
+  .para-larger-txt{
+    font-size:1.3em ;
+  }
+  
+  .sec-heading{
+    font-size: 3em;
+  }
+  
+  /* .typing-demo {
+    width: 13.5ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size:4em;
+  } */
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  
+  @keyframes wave-animation {
+      0% {
+        transform: rotate(0deg);
+      }
+      10% {
+        transform: rotate(14deg);
+      }
+      20% {
+        transform: rotate(-8deg);
+      }
+      30% {
+        transform: rotate(14deg);
+      }
+      40% {
+        transform: rotate(-4deg);
+      }
+      50% {
+        transform: rotate(10deg);
+      }
+      60% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+    
+    .wave {
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      animation-name: wave-animation;
+      display: inline-block;
+      transform-origin: 70% 70%;
+    }
