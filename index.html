@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
      <!-- AOS -->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
 
 <body>
@@ -110,10 +112,11 @@
                         <h2 class="">Hola Amigos! <span class="wave h2">👋</span></h2>
                         <h1 class="typing-demo"></h1>
                         <h1 class="typewriter">I'm <span class="fw-bold blue-txt">Vipul Jujar</span></h1>
-                        <p class="para-larger-txt mt-3">A sophomore who likes to design and develop web apps and solve problems with tailored <span class="blue-txt">data and algorithms</span> and communicating complex ideas to non-technical heads.</p>
-                        <a href="Vipul J Resume.pdf" download="Resume.pdf">
-                            <button type="button" class="btn btn-lg btn-outline-info mb-4">Download Resume</button>
-                          </a>
+                        <p class="para-larger-txt mt-3">Software Developer with 3+ years of experience in JS, React, Node, Next.js, and APIs. 
+                            Skilled in scalable backend,<span class="blue-txt"> Web3 dApps and blockchain,</span> third-party integration</p>
+                            <a " download="Resume.pdf" onclick="showDownloadPrompt()">
+                                <button type="button" class="btn btn-lg btn-outline-info mb-4">Download Resume</button>
+                            </a>
                                               </div>
                 </div>
                 
@@ -146,31 +149,34 @@
 
             <ul class="text-center p-0">
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-html5 fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="devicon-nextjs-plain fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-css3-alt fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="devicon-typescript-plain  fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-bootstrap fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="devicon-go-original-wordmark  fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-square-js fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="devicon-postgresql-plain-wordmark  fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-react fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="devicon-redux-original  fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-node-js fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="devicon-mysql-plain  fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-java fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="fa-brands fa-react fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-python fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="devicon-jest-plain  fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
-                    <i class="fa-brands fa-figma fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
+                    <i class="fa-solid fa-cubes fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
+                </li>
+                <li class="list-inline-item m-3">
+                    <i class="fa-brands fa-node-js fa-5x" data-aos="zoom-in" data-aos-duration="1100"></i>
                 </li>
                 <li class="list-inline-item m-3">
                     <i class="fa-brands fa-git-alt fa-5x"  data-aos="zoom-in" data-aos-duration="1100"></i>
@@ -181,66 +187,90 @@
 
     <!-- EXPERIENCES -->
     <div class="d-flex mt-5 mb-5" id="experience">
-        <div class="container" style="border:  3px solid #001128; border-radius: 24px;-webkit-box-shadow: -2px -1px 24px -5px rgba(0,1,18,1);
-        -moz-box-shadow: -2px -1px 24px -5px rgb(174, 174, 179);
-        box-shadow: -2px -1px 24px -5px rgb(159, 159, 167);">
+        <div class="container" style=" margin: auto; border: 3px solid #001128; border-radius: 24px; 
+            -webkit-box-shadow: -2px -1px 24px -5px rgba(0,1,18,1);
+            -moz-box-shadow: -2px -1px 24px -5px rgb(174, 174, 179);
+            box-shadow: -2px -1px 24px -5px rgb(159, 159, 167); padding: 20px;">
             <div class="text-center mt-5 mb-4">
                 <h1 class="fw-bold blue-txt">💼 EXPERIENCE 💼</h1>
             </div>
+    
             <div class="text-center mt-4">
-                <h2 class="fw-bold">Front End Developer</h2>
-                <h4>Orbit Tech Cloud Solutions, Hubli</h4>
-                <h6>Feb 2023 - Jan 2024</h6>
+                <h2 class="fw-bold">Software Development Engineer</h2>
+                <h4>Sarva Labs, Bangalore</h4>
+                <h6>Sep 2024 - Present</h6>
             </div>
-            <div class="d-flex justify-content-center  mt-4">
+            <div class="d-flex justify-content-center mt-4">
                 <ul class="list-unstyled p-3">
                     <li>
-                        <p>🌟 Leaded a dynamic team of frontend developers in crafting captivating web solutions using
-                            React, JavaScript, Bootstrap, and Git.</p>
+                        <p>🔧 Designed 10+ SDK functions with Jest, achieving 85% test coverage.</p>
                     </li>
                     <li>
-                        <p>⚙️ Identifying bottlenecks and optimizing frontend performance, resulting in faster load
-                            times and enhanced user experiences.</p>
+                        <p>⚡ Optimized client-side rendering with Next.js, React.js, JavaScript (ES6+), and TypeScript, reducing load time.</p>
                     </li>
                     <li>
-                        <p>🔧 Ensuring React app compatibility across browsers via polyfills, feature detection, and
-                            conditional rendering techniques.</p>
+                        <p>💰 Integrated smart contracts, streamlining transactions and cutting gas fees.</p>
+                    </li>
+                    <li>
+                        <p>🔗 Worked with REST APIs using Go with efficient packages, ensuring seamless data exchange and improved performance.</p>
+                    </li>
+                    <li>
+                        <p>📊 Built decentralized blockchain dashboard using Next.js and TypeScript, enhancing node management.</p>
+                    </li>
+                    <li>
+                        <p>🚀 Improved dApp performance through cross-functional collaboration.</p>
                     </li>
                 </ul>
             </div>
-
+    
             <div class="text-center">
-                <h2 class="fw-bold">Junior Developer</h2>
-                <h4>RapidWild Technologies, Hubli</h4>
-                <h6>April 2022 - Sept 2022</h6>
+                <h2 class="fw-bold">Software Engineer 1</h2>
+                <h4>Vyayata Tech, Bangalore</h4>
+                <h6>Feb 2023 - Aug 2024</h6>
             </div>
-            <div class="d-flex justify-content-center  mt-4">
+            <div class="d-flex justify-content-center mt-4">
                 <ul class="list-unstyled p-3">
                     <li>
-                        <p>🚀 Developed and maintained over 6+ web applications using ReactJS</p>
+                        <p>☁️ Designed, developed, and deployed scalable software solutions on Cloudflare production environments.</p>
                     </li>
                     <li>
-                        <p>📈 Improved application performance and stability through attractive front-end designs</p>
+                        <p>🌐 Utilized modern web technologies including HTML5, CSS3, JavaScript (ES6+), React.js, and Node.js </p>
                     </li>
                     <li>
-                        <p>📚 Contributed to the documentation of software design and code</p>
+                        <p>🔍 Implemented automation testing using tools like Jest, and set up CI/CD workflow pipelines using GitHub Actions.</p>
                     </li>
                     <li>
-                        <p>🤝 Worked closely with senior software engineers to understand development best practices</p>
+                        <p>🎨 Collaborated with UI/UX designers to develop responsive, intuitive user interfaces, leveraging React.js, TypeScript, and Redux.</p>
                     </li>
                     <li>
-                        <p>🔄 Participated in team meetings and agile sprint retrospectives</p>
+                        <p>🗄️ Acquired hands-on experience using MySQL and Node.js for efficient database management.</p>
                     </li>
                 </ul>
             </div>
-
+    
+            <div class="text-center">
+                <h2 class="fw-bold">Junior Web Developer</h2>
+                <h4>Orbit Technologys, Hubli</h4>
+                <h6>Apr 2022 - Jan 2023</h6>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <ul class="list-unstyled p-3">
+                    <li>
+                        <p>📱 Collaborated with cross-functional teams to implement mobile-first design features using HTML5, CSS3, and JavaScript (ES6+).</p>
+                    </li>
+                    <li>
+                        <p>🔄 Contributed to the full software development lifecycle (SDLC), focusing on the front-end development of responsive web applications.</p>
+                    </li>
+                </ul>
+            </div>
+    
         </div>
     </div>
-
     <!-- PROJECTS -->
     <div class=" container" id="projects">
         <div class="text-center mt-5 mb-3">
-            <h1 class="fw-bold blue-txt mb-5"> 💻 PROJECTS 💻</h1>
+            <h1 class="fw-bold blue-txt"> 💻 PROJECTS 💻</h1>
+            <p class="mb-3" style="font-size: 10px;">Last updated: 2023</p>
             <div class="container">
                 <div class="row ">
                     <div class="col-sm mb-4">
@@ -426,8 +456,23 @@
             <h3 class="fw-bold blue-txt"> Yeah! That's all about me..</h3>
             <h1>🤗 🙌</h1>
         </div>
-    </div>
-
+    </div> 
+    <script>
+        function showDownloadPrompt() {
+            const message = "👀 Thinking of spying on my experience?🤔 Don't hesitate to reach out if you want to peek behind the curtain! Let's connect!";
+            alert(message);
+        }
+    </script>
+    <script>
+        window.onload = function() {
+             if (!localStorage.getItem('hasSeenPrompt')) {
+                const updateDate = "April 1, 2025";
+                const message = `Welcome to my digital realm! Last updated on ${updateDate}.`;
+                alert(message);
+                localStorage.setItem('hasSeenPrompt', 'true');
+            }
+        };
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
